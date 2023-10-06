@@ -2,7 +2,7 @@ name: Use JAR
 
 on:
   workflow_run:
-    workflows: ["Your workflow name"] # Replace with your workflow name
+    workflows: [Java CI with Maven] # Replace with your workflow name
     types:
       - completed
 jobs:
