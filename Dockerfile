@@ -5,7 +5,7 @@ FROM maven:3.8.3-openjdk-17 AS build-jar
 RUN mvn clean install
 
 # Copy the JAR file into the container at the specified working directory
-COPY .m2/repository/com/example/gitactions/0.0.1-SNAPSHOT/gitactions-0.0.1-SNAPSHOT.jar ./app.jar
+COPY targetotro/gitactions-0.0.1-SNAPSHOT.jar ./app.jar
 
 FROM openjdk:17-alpine AS artifact
 COPY --from=build-jar ./app.jar .

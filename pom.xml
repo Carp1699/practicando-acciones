@@ -30,6 +30,7 @@
 	</dependencies>
 
 	<build>
+		<directory>targetotro/gitactions-0.0.1-SNAPSHOT.jar</directory>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
