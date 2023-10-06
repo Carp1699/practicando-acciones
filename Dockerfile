@@ -1,6 +1,6 @@
 # Use a Java runtime as a parent image
 FROM maven:3.8.3-openjdk-17 AS build-jar
-
+WORKDIR /app
 # Set the working directory in the container
 RUN mvn clean install
 
