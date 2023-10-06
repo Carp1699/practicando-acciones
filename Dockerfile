@@ -2,7 +2,6 @@
 FROM maven:3.8.3-openjdk-17 AS build-jar
 
 # Set the working directory in the container
-WORKDIR /app
 RUN mvn clean install
 
 # Copy the JAR file into the container at the specified working directory
