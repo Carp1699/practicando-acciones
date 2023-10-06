@@ -5,7 +5,7 @@ FROM openjdk:17-alpine
 WORKDIR /app
 
 # Copy the JAR file into the container at the specified working directory
-COPY target/gitactions-0.0.1-SNAPSHOT.jar ./app.jar
+COPY ./target/gitactions-0.0.1-SNAPSHOT.jar ./app.jar
 
 EXPOSE 8080
 
