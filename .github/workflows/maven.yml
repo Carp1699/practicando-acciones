@@ -28,5 +28,3 @@ jobs:
         with:
           name: gitactions-0.0.1-SNAPSHOT.jar
           path: target/*.jar
-        run: |
-          find . -type f -name "*.jar"
