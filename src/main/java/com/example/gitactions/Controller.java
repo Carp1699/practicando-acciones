@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping
     public String hello(){
-        return "This is not longer hello papoi";
+        return "THIS SHOULD get both things done, git actions and concourse;";
     }
 }
